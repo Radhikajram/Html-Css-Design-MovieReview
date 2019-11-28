@@ -1,0 +1,51 @@
+body {
+	background-image: url('frozenbg.PNG');
+}
+
+#frozenimage, #videiofiles iframe {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+} 
+#movietitle {
+	font-family: fantasy;
+	font-size: 30;
+	position: relative;
+	min-height: 100vh;
+}
+#moviedetails {
+	text-align: center;
+}
+#links {
+	display: table;
+}
+#links ul {
+
+  list-style: none;
+  }
+#links li {
+	padding-right: 20px;
+	float: left;
+	padding-left: 100px;
+	
+}
+#links li a {
+
+	padding: 12px;
+	display: block;
+}
+footer {
+	bottom: 0;
+	position: absolute;
+	height: 50px;
+	width: 100%;
+	background-color: #43677d;
+
+}
+footer p {
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+
+}
